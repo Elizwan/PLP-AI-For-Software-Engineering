@@ -3,12 +3,12 @@ TensorFlow is an open-source machine learning framework developed by Google for 
 
 Key features:
 
-Supports deep learning and numerical computation.
-Uses computational graphs for efficient model execution.
-Supports GPU and TPU acceleration.
-Provides TensorFlow Serving for deploying models.
-Includes Keras as a high-level API.
-Supports automatic differentiation using tf.GradientTape.
+* Supports deep learning and numerical computation.
+* Uses computational graphs for efficient model execution.
+* Supports GPU and TPU acceleration.
+* Provides TensorFlow Serving for deploying models.
+* Includes Keras as a high-level API.
+* Supports automatic differentiation using tf.GradientTape.
 
 2. What is the main difference between TensorFlow and PyTorch in terms of computation graphs?
 TensorFlow uses static computation graphs (deferred execution), meaning the graph is defined before execution.
@@ -19,30 +19,31 @@ Keras is a high-level neural network API designed to simplify deep learning mode
 
 It can run on:
 
-TensorFlow (default backend)
-Microsoft Cognitive Toolkit (CNTK) (deprecated)
-Theano (deprecated)
+* TensorFlow (default backend)
+* Microsoft Cognitive Toolkit (CNTK) (deprecated)
+* Theano (deprecated)
+
 4. What are the key features of Scikit-learn?
 Scikit-learn is a machine learning library for Python built on NumPy, SciPy, and Matplotlib.
 
 Key features:
 
-Supports classification, regression, and clustering.
-Provides dimensionality reduction and feature selection.
-Includes model selection tools like cross-validation.
-Supports pipelines for machine learning workflows.
-Integrates with NumPy and Pandas for data handling.
+* Supports classification, regression, and clustering.
+* Provides dimensionality reduction and feature selection.
+* Includes model selection tools like cross-validation.
+* Supports pipelines for machine learning workflows.
+* Integrates with NumPy and Pandas for data handling.
 
 5. What is the purpose of Jupyter Notebooks, and what are its key features?
 Jupyter Notebooks provide an interactive computing environment for writing and running code in a notebook-style interface.
 
 Key features:
 
-Supports live code execution with Markdown annotations.
-Allows interactive visualization with libraries like Matplotlib and Seaborn.
-Enables data exploration and preprocessing in Python.
-Supports multiple languages (Python, R, Julia, etc.).
-Useful for collaborative research and teaching.
+* Supports live code execution with Markdown annotations.
+* Allows interactive visualization with libraries like Matplotlib and Seaborn.
+* Enables data exploration and preprocessing in Python.
+* Supports multiple languages (Python, R, Julia, etc.).
+* Useful for collaborative research and teaching.
 
 6. In the TensorFlow example provided, what is the purpose of the Dropout layer in the neural network?
 The Dropout layer randomly drops neurons during training to prevent overfitting and improve model generalization.
