@@ -1,0 +1,64 @@
+1. What is TensorFlow, and what are its key features?
+TensorFlow is an open-source machine learning framework developed by Google for building and training deep learning models.
+
+Key features:
+
+Supports deep learning and numerical computation.
+Uses computational graphs for efficient model execution.
+Supports GPU and TPU acceleration.
+Provides TensorFlow Serving for deploying models.
+Includes Keras as a high-level API.
+Supports automatic differentiation using tf.GradientTape.
+
+2. What is the main difference between TensorFlow and PyTorch in terms of computation graphs?
+TensorFlow uses static computation graphs (deferred execution), meaning the graph is defined before execution.
+PyTorch uses dynamic computation graphs (eager execution), where operations are executed immediately.
+
+3. What is Keras, and on which frameworks can it run?
+Keras is a high-level neural network API designed to simplify deep learning model development.
+
+It can run on:
+
+TensorFlow (default backend)
+Microsoft Cognitive Toolkit (CNTK) (deprecated)
+Theano (deprecated)
+4. What are the key features of Scikit-learn?
+Scikit-learn is a machine learning library for Python built on NumPy, SciPy, and Matplotlib.
+
+Key features:
+
+Supports classification, regression, and clustering.
+Provides dimensionality reduction and feature selection.
+Includes model selection tools like cross-validation.
+Supports pipelines for machine learning workflows.
+Integrates with NumPy and Pandas for data handling.
+
+5. What is the purpose of Jupyter Notebooks, and what are its key features?
+Jupyter Notebooks provide an interactive computing environment for writing and running code in a notebook-style interface.
+
+Key features:
+
+Supports live code execution with Markdown annotations.
+Allows interactive visualization with libraries like Matplotlib and Seaborn.
+Enables data exploration and preprocessing in Python.
+Supports multiple languages (Python, R, Julia, etc.).
+Useful for collaborative research and teaching.
+
+6. In the TensorFlow example provided, what is the purpose of the Dropout layer in the neural network?
+The Dropout layer randomly drops neurons during training to prevent overfitting and improve model generalization.
+
+7. What is the role of the optimizer in the PyTorch example, and which optimizer is used?
+The optimizer updates the model’s weights based on the loss function to minimize errors.
+
+The most commonly used optimizer in PyTorch is Adam (torch.optim.Adam).
+
+8. In the Keras example, what is the purpose of the Conv2D layer?
+The Conv2D layer applies convolutional filters to extract spatial features from images, detecting edges, textures, and patterns.
+
+9. What type of model is used in the Scikit-learn example, and what dataset is it applied to?
+The model is likely a classification model (e.g., Logistic Regression, SVM, Decision Tree).
+The dataset could be Iris, MNIST, or a custom dataset commonly used in Scikit-learn examples.
+
+10. What is the output of the Jupyter Notebook example, and which library is used to generate the visualization?
+The output is likely a data visualization (e.g., scatter plot, histogram).
+The library used is probably Matplotlib or Seaborn.
